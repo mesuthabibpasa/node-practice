@@ -23,8 +23,8 @@ var questions = [
   },
 ];
 
-const sum = function(a, b) {
-  return a + b;
+const sum = function(a, b, c) {
+  return a + b + c;
 }
 
 inquirer.prompt(questions).then((answers) => {
